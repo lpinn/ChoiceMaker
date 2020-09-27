@@ -1,1 +1,46 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
 
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f0a500;
+    display: flex;
+}
+
+.links li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.links a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.links a:visited {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.links a:focus {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.links a:hover,
+a:active {
+    text-decoration: underline;
+    color: #f4f4f4;
+    font-size-adjust: 0.9;
+}
